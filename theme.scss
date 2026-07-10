@@ -1,0 +1,107 @@
+/*-- scss:defaults --*/
+
+// Palette lifted off a displayed seismic section, not a mood board:
+// black wiggle traces on white paper, red positive amplitude, blue negative.
+$trace:    #101418;   // trace ink
+$paper:    #fdfdfc;
+$positive: #a3241d;   // filled lobe, right deflection
+$negative: #1f4e79;   // left deflection
+$mute:     #6b7075;
+$rule:     rgba($trace, 0.12);
+
+$body-bg:    $paper;
+$body-color: $trace;
+$link-color: $negative;
+$link-hover-color: $positive;
+
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, Menlo, monospace;
+$font-size-root: 17px;
+$line-height-base: 1.62;
+
+$headings-font-weight: 600;
+$h1-font-size: 2.4rem;
+$h2-font-size: 1.45rem;
+$h3-font-size: 1.15rem;
+
+$navbar-bg: $trace;
+$navbar-fg: #e8e8e6;
+$navbar-hl: #ffffff;
+
+$code-bg: #f4f3f0;
+$code-color: $positive;
+$border-color: $rule;
+
+/*-- scss:rules --*/
+
+main p, main ul, main ol { max-width: 70ch; }
+
+h1, h2, h3 { letter-spacing: -0.012em; }
+
+// Section labels use the mono face on purpose. Trace headers, SEG-Y keywords,
+// and CLI flags are all monospace in the tools these readers already use.
+.eyebrow {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: $mute;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+// The hero: full-bleed section, no card, no gradient.
+.hero {
+  margin: 0 0 3.5rem;
+  border-bottom: 1px solid $rule;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero .tagline {
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: $mute;
+  max-width: 46ch;
+  margin: 1.6rem 0 2rem;
+}
+@media (max-width: 600px) {
+  .hero img { height: 210px; object-fit: cover; object-position: left; }
+  .hero .tagline { font-size: 1.1rem; }
+}
+
+// Install block reads as a terminal, not a code sample.
+.install {
+  font-family: var(--bs-font-monospace);
+  font-size: 0.92rem;
+  background: $trace;
+  color: #e8e8e6;
+  padding: 0.9rem 1.1rem;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+.install::before { content: "$ "; color: $mute; }
+
+h2 {
+  border-top: 1px solid $rule;
+  padding-top: 1.5rem;
+  margin-top: 2.8rem;
+}
+
+blockquote {
+  border-left: 3px solid $positive;
+  color: $mute;
+  font-style: normal;
+}
+
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid $rule;
+  padding: 0.9rem 0;
+}
+
+:focus-visible { outline: 2px solid $negative; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }

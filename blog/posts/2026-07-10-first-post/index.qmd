@@ -1,0 +1,25 @@
+---
+title: "First post"
+description: "A template. Copy this folder to start a new one."
+date: 2026-07-10
+categories: [meta]
+execute:
+  enabled: false     # template post: no cell runs, so quarto starts no kernel
+---
+
+Each post is its own folder, so images and data can sit next to the `.qmd`
+that uses them. Copy `blog/posts/2026-07-10-first-post/` and edit.
+
+Math renders without doing anything: $\nabla \cdot \mathbf{E} = \rho / \varepsilon_0$.
+
+Code cells execute at render time and the results get cached in `_freeze/`,
+so CI never needs your environment:
+
+```{python}
+#| echo: true
+#| eval: false
+import numpy as np
+np.linspace(0, 1, 5)
+```
+
+Delete the `eval: false` once you've committed `_freeze/`.

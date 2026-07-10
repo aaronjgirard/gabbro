@@ -1,0 +1,22 @@
+---
+title: "Contribute"
+---
+
+gabbro is Apache-2.0 and developed in the open at
+[github.com/YOURORG/gabbro](https://github.com/YOURORG/gabbro).
+
+[]{.eyebrow}Good first issues
+
+Issues tagged `good first issue` are scoped so someone new to the codebase can
+finish them in an afternoon. [TODO]
+
+[]{.eyebrow}Reporting a vulnerability
+
+Mail [security@gabbro.ca](mailto:security@gabbro.ca) rather than opening a
+public issue. [TODO: response-time commitment.]
+
+[]{.eyebrow}Citing gabbro
+
+[TODO: add a `CITATION.cff` to the repo and GitHub will render a "Cite this
+repository" button. Academic users will want a DOI, which Zenodo mints for free
+if you connect the repo and cut a release.]

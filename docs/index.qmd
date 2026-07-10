@@ -1,0 +1,17 @@
+---
+title: "Documentation"
+---
+
+[]{.eyebrow}Start here
+
+- Installing [TODO]
+- Your first flow [TODO]
+- Reading SEG-Y [TODO]
+
+Make each of these its own `.qmd` in `docs/`, then add a `sidebar:` block to
+`_quarto.yml` so they get their own navigation.
+
+[]{.eyebrow}Reference
+
+API reference goes here. If gabbro is Python, [quartodoc](https://machow.github.io/quartodoc/)
+generates this section from docstrings and drops it straight into the sidebar.

@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - CNAME          # copied into _site/ so gh-pages keeps the custom domain
+
+website:
+  title: "gabbro"
+  site-url: https://gabbro.ca
+  repo-url: https://github.com/YOURORG/gabbro
+  repo-actions: [edit, issue]
+  description: "Open source seismic processing."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: docs/index.qmd
+        text: Docs
+      - href: blog/index.qmd
+        text: Blog
+      - href: contribute.qmd
+        text: Contribute
+    right:
+      - icon: github
+        href: https://github.com/YOURORG/gabbro
+        aria-label: GitHub
+  page-footer:
+    left: "Apache-2.0"
+    center: "[security@gabbro.ca](mailto:security@gabbro.ca)"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      - litera
+      - theme.scss
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
+    anchor-sections: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;600&display=swap">
+
+execute:
+  freeze: auto     # cached results committed to _freeze/, CI never runs your code
