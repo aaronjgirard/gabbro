@@ -56,11 +56,16 @@ h1, h2, h3 { letter-spacing: -0.012em; }
   margin: 0 0 3.5rem;
   border-bottom: 1px solid $rule;
 }
+// Full-bleed: pull the image out to the viewport edges regardless of the
+// content column it sits in. body overflow-x clip absorbs the scrollbar gap.
 .hero img {
-  width: 100%;
+  width: 100vw;
+  max-width: none;
   height: auto;
   display: block;
+  margin-left: calc(50% - 50vw);
 }
+body { overflow-x: clip; }
 .hero .tagline {
   font-size: 1.3rem;
   font-weight: 300;

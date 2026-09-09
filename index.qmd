@@ -5,9 +5,7 @@ anchor-sections: false
 ---
 
 ::: {.hero}
-::: {.column-screen}
 ![](hero.svg)
-:::
 
 # gabbro
 
