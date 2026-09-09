@@ -4,7 +4,7 @@
     "href": "contribute.html",
     "title": "Contribute",
     "section": "",
-    "text": "gabbro is Apache-2.0 and developed in the open at github.com/gabbro-ca.\nGood first issues\nIssues tagged good first issue are scoped so someone new to the codebase can finish them in an afternoon. [TODO]\nReporting a vulnerability\nMail security@gabbro.ca rather than opening a public issue. [TODO: response-time commitment.]\nCiting gabbro\n[TODO: add a CITATION.cff to the repo and GitHub will render a “Cite this repository” button. Academic users will want a DOI, which Zenodo mints for free if you connect the repo and cut a release.]"
+    "text": "gabbro is Apache-2.0 and developed in the open at github.com/gabbro-ca.\nMail security@gabbro.ca rather than opening a public issue.\nMail info@gabbro.ca for more information."
   },
   {
     "objectID": "blog/posts/2026-07-10-first-post/index.html",
@@ -18,28 +18,14 @@
     "href": "docs/index.html",
     "title": "Documentation",
     "section": "",
-    "text": "Start here\n\nInstalling [TODO]\nYour first flow [TODO]\nReading SEG-Y [TODO]\n\nMake each of these its own .qmd in docs/, then add a sidebar: block to _quarto.yml so they get their own navigation.\nReference\nAPI reference goes here. If gabbro is Python, quartodoc generates this section from docstrings and drops it straight into the sidebar."
+    "text": "Coming soon."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "gabbro",
     "section": "",
-    "text": "Seismic processing you can read, fork, and cite.\n\npip install gabbro\n[TODO: two sentences on what gabbro actually does and who it’s for. Name the formats it reads, the thing it’s faster or clearer at, and the alternative people are switching from.]\nInterested parties can find the project on GitHub at github.com/gabbro-ca."
-  },
-  {
-    "objectID": "index.html#whats-in-the-box",
-    "href": "index.html#whats-in-the-box",
-    "title": "gabbro",
-    "section": "What’s in the box",
-    "text": "What’s in the box\nI/O\nReads and writes SEG-Y, SU, and SEG-D without a C toolchain. [TODO]\nProcessing\n[TODO: the actual flows. Deconvolution, NMO, stacking, migration, whatever you’ve built.]\nProvenance\nEvery flow is a script, so a stack is reproducible from raw field data. [TODO]"
-  },
-  {
-    "objectID": "index.html#try-it",
-    "href": "index.html#try-it",
-    "title": "gabbro",
-    "section": "Try it",
-    "text": "Try it\nimport gabbro as gb\n\nshot = gb.read_segy(\"line-42.sgy\")\ngathers = shot.sort(\"cdp\").nmo(velocity=gb.velocity.from_picks(\"picks.csv\"))\nstack = gathers.stack()\nstack.plot()\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
+    "text": "gabbro\n\nSeismic processing you can read, fork, and cite.\n\n\n\ngabbro is for researchers in seismology focused on large continuous data sets. It focusses on SEGY and RSF files, and is a complementary tool to su, obspy, and Madagascar.\nInterested parties can find the project on GitHub at github.com/gabbro-ca.\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
   },
   {
     "objectID": "blog/index.html",

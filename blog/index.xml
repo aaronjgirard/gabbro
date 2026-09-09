@@ -41,7 +41,7 @@
 <p>Each post is its own folder, so images and data can sit next to the <code>.qmd</code> that uses them. Copy <code>blog/posts/2026-07-10-first-post/</code> and edit.</p>
 <p>Math renders without doing anything: <img src="https://latex.codecogs.com/png.latex?%5Cnabla%20%5Ccdot%20%5Cmathbf%7BE%7D%20=%20%5Crho%20/%20%5Cvarepsilon_0">.</p>
 <p>Code cells execute at render time and the results get cached in <code>_freeze/</code>, so CI never needs your environment:</p>
-<div id="e24e84ca" class="cell">
+<div id="5efca08e" class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
