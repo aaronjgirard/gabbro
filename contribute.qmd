@@ -3,7 +3,7 @@ title: "Contribute"
 ---
 
 gabbro is Apache-2.0 and developed in the open at
-[github.com/YOURORG/gabbro](https://github.com/YOURORG/gabbro).
+[github.com/gabbro-ca](https://github.com/gabbro-ca).
 
 []{.eyebrow}Good first issues
 

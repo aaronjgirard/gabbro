@@ -1,0 +1,13 @@
+---
+title: "Preliminary build in progress"
+description: "gabbro is working on a preliminary build. Get in touch if you would like to collaborate."
+date: 2026-09-09
+categories: [meta, status]
+---
+
+gabbro is currently working on a preliminary build and more work is being
+done.
+
+If you would like to be a collaborator, contact us by emailing
+[info@gabbro.ca](mailto:info@gabbro.ca) and/or "Following" the project on
+GitHub at [github.com/gabbro-ca](https://github.com/gabbro-ca).

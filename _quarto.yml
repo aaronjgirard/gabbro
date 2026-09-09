@@ -7,7 +7,7 @@ project:
 website:
   title: "gabbro"
   site-url: https://gabbro.ca
-  repo-url: https://github.com/YOURORG/gabbro
+  repo-url: https://github.com/gabbro-ca/gabbro
   repo-actions: [edit, issue]
   description: "Open source seismic processing."
   navbar:
@@ -16,13 +16,19 @@ website:
         text: Home
       - href: docs/index.qmd
         text: Docs
-      - href: blog/index.qmd
-        text: Blog
+      - text: Blog
+        menu:
+          - href: blog/index.qmd
+            text: All posts
+          - href: blog/posts/2026-09-09-preliminary-build/index.qmd
+            text: Preliminary build in progress
       - href: contribute.qmd
         text: Contribute
+      - href: blog/posts/2026-09-09-preliminary-build/index.qmd
+        text: Status
     right:
       - icon: github
-        href: https://github.com/YOURORG/gabbro
+        href: https://github.com/gabbro-ca
         aria-label: GitHub
   page-footer:
     left: "Apache-2.0"

@@ -22,6 +22,9 @@ Seismic processing you can read, fork, and cite.
 formats it reads, the thing it's faster or clearer at, and the alternative
 people are switching from.]
 
+Interested parties can find the project on GitHub at
+[github.com/gabbro-ca](https://github.com/gabbro-ca).
+
 ## What's in the box {.unnumbered}
 
 []{.eyebrow}I/O
@@ -50,4 +53,4 @@ stack.plot()
 
 [The section at the top of this page is a synthetic gather: six dipping
 reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The
-script that made it lives in [`assets/make_hero.py`](https://github.com/YOURORG/gabbro).]{.text-muted}
+script that made it lives in [`assets/make_hero.py`](https://github.com/gabbro-ca/gabbro).]{.text-muted}
