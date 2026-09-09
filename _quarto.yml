@@ -7,7 +7,7 @@ project:
 website:
   title: "gabbro"
   site-url: https://gabbro.ca
-  repo-url: https://github.com/gabbro-ca/gabbro
+  repo-url: https://github.com/aaronjgirard/gabbro
   repo-actions: [edit, issue]
   description: "Open source seismic processing."
   navbar:
