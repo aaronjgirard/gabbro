@@ -12,7 +12,7 @@ anchor-sections: false
 # gabbro
 
 ::: {.tagline}
-Seismic processing you can read, fork, and cite.
+Unlocking the signals in large seismic datasets.
 :::
 :::
 
