@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "gabbro",
     "section": "",
-    "text": "gabbro\n\nSeismic processing you can read, fork, and cite.\n\n\n\ngabbro is for researchers in seismology focused on large continuous data sets. It focusses on SEGY and RSF files, and is a complementary tool to su, obspy, and Madagascar.\nInterested parties can find the project on GitHub at github.com/gabbro-ca.\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
+    "text": "gabbro\n\nUnlocking the signals in large seismic datasets.\n\n\n\ngabbro is for researchers in seismology focused on large continuous data sets. It focusses on SEGY and RSF files, and is a complementary tool to su, obspy, and Madagascar.\nInterested parties can find the project on GitHub at github.com/gabbro-ca.\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
   },
   {
     "objectID": "blog/index.html",
