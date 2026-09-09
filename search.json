@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "Contribute",
+    "section": "",
+    "text": "gabbro is Apache-2.0 and developed in the open at github.com/gabbro-ca.\nGood first issues\nIssues tagged good first issue are scoped so someone new to the codebase can finish them in an afternoon. [TODO]\nReporting a vulnerability\nMail security@gabbro.ca rather than opening a public issue. [TODO: response-time commitment.]\nCiting gabbro\n[TODO: add a CITATION.cff to the repo and GitHub will render a “Cite this repository” button. Academic users will want a DOI, which Zenodo mints for free if you connect the repo and cut a release.]"
+  },
+  {
+    "objectID": "blog/posts/2026-07-10-first-post/index.html",
+    "href": "blog/posts/2026-07-10-first-post/index.html",
+    "title": "First post",
+    "section": "",
+    "text": "Each post is its own folder, so images and data can sit next to the .qmd that uses them. Copy blog/posts/2026-07-10-first-post/ and edit.\nMath renders without doing anything: \\(\\nabla \\cdot \\mathbf{E} = \\rho / \\varepsilon_0\\).\nCode cells execute at render time and the results get cached in _freeze/, so CI never needs your environment:\n\nimport numpy as np\nnp.linspace(0, 1, 5)\n\nDelete the eval: false once you’ve committed _freeze/."
+  },
+  {
+    "objectID": "docs/index.html",
+    "href": "docs/index.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Start here\n\nInstalling [TODO]\nYour first flow [TODO]\nReading SEG-Y [TODO]\n\nMake each of these its own .qmd in docs/, then add a sidebar: block to _quarto.yml so they get their own navigation.\nReference\nAPI reference goes here. If gabbro is Python, quartodoc generates this section from docstrings and drops it straight into the sidebar."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "gabbro",
+    "section": "",
+    "text": "Seismic processing you can read, fork, and cite.\n\npip install gabbro\n[TODO: two sentences on what gabbro actually does and who it’s for. Name the formats it reads, the thing it’s faster or clearer at, and the alternative people are switching from.]\nInterested parties can find the project on GitHub at github.com/gabbro-ca."
+  },
+  {
+    "objectID": "index.html#whats-in-the-box",
+    "href": "index.html#whats-in-the-box",
+    "title": "gabbro",
+    "section": "What’s in the box",
+    "text": "What’s in the box\nI/O\nReads and writes SEG-Y, SU, and SEG-D without a C toolchain. [TODO]\nProcessing\n[TODO: the actual flows. Deconvolution, NMO, stacking, migration, whatever you’ve built.]\nProvenance\nEvery flow is a script, so a stack is reproducible from raw field data. [TODO]"
+  },
+  {
+    "objectID": "index.html#try-it",
+    "href": "index.html#try-it",
+    "title": "gabbro",
+    "section": "Try it",
+    "text": "Try it\nimport gabbro as gb\n\nshot = gb.read_segy(\"line-42.sgy\")\ngathers = shot.sort(\"cdp\").nmo(velocity=gb.velocity.from_picks(\"picks.csv\"))\nstack = gathers.stack()\nstack.plot()\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Writing",
+    "section": "",
+    "text": "Preliminary build in progress\n\n\n\nmeta\n\nstatus\n\n\n\ngabbro is working on a preliminary build. Get in touch if you would like to collaborate.\n\n\n\n\n\nSep 9, 2026\n\n\n\n\n\n\n\nFirst post\n\n\n\nmeta\n\n\n\nA template. Copy this folder to start a new one.\n\n\n\n\n\nJul 10, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/2026-09-09-preliminary-build/index.html",
+    "href": "blog/posts/2026-09-09-preliminary-build/index.html",
+    "title": "Preliminary build in progress",
+    "section": "",
+    "text": "gabbro is currently working on a preliminary build and more work is being done.\nIf you would like to be a collaborator, contact us by emailing info@gabbro.ca and/or “Following” the project on GitHub at github.com/gabbro-ca."
+  }
+]

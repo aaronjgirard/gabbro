@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>gabbro</title>
+<link>https://gabbro.ca/blog/</link>
+<atom:link href="https://gabbro.ca/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Open source seismic processing.</description>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Wed, 09 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Preliminary build in progress</title>
+  <link>https://gabbro.ca/blog/posts/2026-09-09-preliminary-build/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>gabbro is currently working on a preliminary build and more work is being done.</p>
+<p>If you would like to be a collaborator, contact us by emailing <a href="mailto:info@gabbro.ca">info@gabbro.ca</a> and/or “Following” the project on GitHub at <a href="https://github.com/gabbro-ca">github.com/gabbro-ca</a>.</p>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <category>status</category>
+  <guid>https://gabbro.ca/blog/posts/2026-09-09-preliminary-build/</guid>
+  <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>First post</title>
+  <link>https://gabbro.ca/blog/posts/2026-07-10-first-post/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Each post is its own folder, so images and data can sit next to the <code>.qmd</code> that uses them. Copy <code>blog/posts/2026-07-10-first-post/</code> and edit.</p>
+<p>Math renders without doing anything: <img src="https://latex.codecogs.com/png.latex?%5Cnabla%20%5Ccdot%20%5Cmathbf%7BE%7D%20=%20%5Crho%20/%20%5Cvarepsilon_0">.</p>
+<p>Code cells execute at render time and the results get cached in <code>_freeze/</code>, so CI never needs your environment:</p>
+<div id="e24e84ca" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-2">np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>)</span></code></pre></div></div>
+</div>
+<p>Delete the <code>eval: false</code> once you’ve committed <code>_freeze/</code>.</p>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <guid>https://gabbro.ca/blog/posts/2026-07-10-first-post/</guid>
+  <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
