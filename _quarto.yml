@@ -10,7 +10,10 @@ website:
   repo-url: https://github.com/aaronjgirard/gabbro
   repo-actions: [edit, issue]
   description: "Open source seismic processing."
+  favicon: logo.png
   navbar:
+    logo: logo.png
+    logo-alt: "gabbro maple leaf logo"
     left:
       - href: index.qmd
         text: Home
