@@ -7,13 +7,6 @@
     "text": "gabbro is Apache-2.0 and developed in the open at github.com/gabbro-ca.\nMail security@gabbro.ca rather than opening a public issue.\nMail info@gabbro.ca for more information."
   },
   {
-    "objectID": "blog/posts/2026-07-10-first-post/index.html",
-    "href": "blog/posts/2026-07-10-first-post/index.html",
-    "title": "First post",
-    "section": "",
-    "text": "Each post is its own folder, so images and data can sit next to the .qmd that uses them. Copy blog/posts/2026-07-10-first-post/ and edit.\nMath renders without doing anything: \\(\\nabla \\cdot \\mathbf{E} = \\rho / \\varepsilon_0\\).\nCode cells execute at render time and the results get cached in _freeze/, so CI never needs your environment:\n\nimport numpy as np\nnp.linspace(0, 1, 5)\n\nDelete the eval: false once you’ve committed _freeze/."
-  },
-  {
     "objectID": "docs/index.html",
     "href": "docs/index.html",
     "title": "Documentation",
@@ -21,11 +14,18 @@
     "text": "Coming soon."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "gabbro",
+    "objectID": "blog/posts/2026-07-10-first-post/index.html",
+    "href": "blog/posts/2026-07-10-first-post/index.html",
+    "title": "First post",
     "section": "",
-    "text": "gabbro\n\nUnlocking the signals in large seismic datasets.\n\n\n\ngabbro is for researchers in seismology focused on large continuous data sets. It focusses on SEGY and RSF files, and is a complementary tool to su, obspy, and Madagascar.\nInterested parties can find the project on GitHub at github.com/gabbro-ca.\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
+    "text": "Each post is its own folder, so images and data can sit next to the .qmd that uses them. Copy blog/posts/2026-07-10-first-post/ and edit.\nMath renders without doing anything: \\(\\nabla \\cdot \\mathbf{E} = \\rho / \\varepsilon_0\\).\nCode cells execute at render time and the results get cached in _freeze/, so CI never needs your environment:\n\nimport numpy as np\nnp.linspace(0, 1, 5)\n\nDelete the eval: false once you’ve committed _freeze/."
+  },
+  {
+    "objectID": "blog/posts/2026-09-09-preliminary-build/index.html",
+    "href": "blog/posts/2026-09-09-preliminary-build/index.html",
+    "title": "Preliminary build in progress",
+    "section": "",
+    "text": "gabbro is currently working on a preliminary build and more work is being done.\nIf you would like to be a collaborator, contact us by emailing info@gabbro.ca and/or “Following” the project on GitHub at github.com/gabbro-ca."
   },
   {
     "objectID": "blog/index.html",
@@ -35,10 +35,10 @@
     "text": "Preliminary build in progress\n\n\n\nmeta\n\nstatus\n\n\n\ngabbro is working on a preliminary build. Get in touch if you would like to collaborate.\n\n\n\n\n\nSep 9, 2026\n\n\n\n\n\n\n\nFirst post\n\n\n\nmeta\n\n\n\nA template. Copy this folder to start a new one.\n\n\n\n\n\nJul 10, 2026\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/2026-09-09-preliminary-build/index.html",
-    "href": "blog/posts/2026-09-09-preliminary-build/index.html",
-    "title": "Preliminary build in progress",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "gabbro",
     "section": "",
-    "text": "gabbro is currently working on a preliminary build and more work is being done.\nIf you would like to be a collaborator, contact us by emailing info@gabbro.ca and/or “Following” the project on GitHub at github.com/gabbro-ca."
+    "text": "gabbro\n\nUnlocking the signals in large seismic datasets.\n\n\n\ngabbro is for researchers in seismology focused on large continuous data sets. It focusses on SEGY and RSF files, and is a complementary tool to su, obspy, and Madagascar.\nInterested parties can find the project on GitHub at github.com/gabbro-ca.\nThe section at the top of this page is a synthetic gather: six dipping reflectors convolved with a 26 Hz Ricker wavelet, plotted variable-area. The script that made it lives in assets/make_hero.py."
   }
 ]
